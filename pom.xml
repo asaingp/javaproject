@@ -27,12 +27,12 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-    <distributionManagement>
-        <repository>
-            <id>central</id>
-            <name>8679db917e52-releases</name>
-            <url>http://172.16.129.85:8999/artifactory/libs-snapshot-local</url>
-        </repository>
-    </distributionManagement>
+<distributionManagement>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>1dd89004aea0-snapshots</name>
+        <url>http://192.168.0.110:8081/artifactory/libs-snapshot-local</url>
+    </snapshotRepository>
+</distributionManagement>
 
 </project>
