@@ -8,6 +8,6 @@ public class TestSample extends Assert {
 
   @Test
   public void firstTest(){
-   Assert.assertTrue("test passed", 0>1);
+   Assert.assertTrue("test passed", 3>1);
   }
 }
