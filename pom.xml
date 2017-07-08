@@ -6,7 +6,7 @@
 
     <groupId>test</groupId>
     <artifactId>sample</artifactId>
-    <version>1.0.0</version>
+    <version>1.0-snapshot</version>
 
     <dependencies>
         <dependency>
