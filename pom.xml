@@ -28,11 +28,11 @@
         </dependency>
     </dependencies>
 <distributionManagement>
-    <snapshotRepository>
-        <id>snapshots</id>
-        <name>1dd89004aea0-snapshots</name>
-        <url>http://192.168.0.110:8081/artifactory/libs-snapshot-local</url>
-    </snapshotRepository>
+    <repository>
+        <id>central</id>
+        <name>1dd89004aea0-releases</name>
+        <url>http://10.0.0.33:8081/artifactory/libs-release-local</url>
+    </repository>
 </distributionManagement>
 
 </project>
